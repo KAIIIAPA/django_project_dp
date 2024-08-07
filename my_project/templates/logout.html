@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ block.super }}
+{% endblock %}
+
+{% block pagename %}
+    <h1>Авторизация пользователя</h1>
+{% endblock %}
+
+{% block left_page %}
+        <div class='left_menu'>
+        <blockquote><a href="/main/">Главная страница</a></blockquote>
+        <blockquote><a href="/main/news/">Новости</a> </blockquote>
+        <blockquote><a href="/main/registration/">Регистрация</a> </blockquote>
+    </div>
+{% endblock %}
+
+{% block centre_page %}
+    <div class="centre_menu">
+        <h2>Удачного дня! Спасибо, что Вы с нами!</h2>
+    </div>
+{% endblock %}
+
+{% block right_page %}
+    {{ block.super }}
+{% endblock %}
